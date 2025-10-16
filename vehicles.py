@@ -27,3 +27,15 @@ car1.info()
 
 bike1 = Bike("Yamaha", "R15", 155)
 bike1.info()
+
+# Polymorphism
+
+vehicles = [
+    Car("toyota", "Hilux", 7),
+    Car("toyota", "Crown", 4),
+    Bike("kawasaki", "Ninja", 300),
+    Bike("Yamaha", "R15", 150),
+]
+
+for v in vehicles:
+    v.info()
